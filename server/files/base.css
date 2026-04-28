@@ -1,7 +1,7 @@
 body {
   font-family: "Trebuchet MS", sans-serif;
-  background-color: brown;
-  color: beige;
+  background-color: rgb(29, 29, 29);
+  color: rgb(131, 240, 255);
 }
 
 main {
@@ -9,7 +9,7 @@ main {
 }
 
 button {
-    padding: 4px;
+    padding: 3px;
     border-width: 1px;
     border-radius: 4px;
     font-size: 105%;
