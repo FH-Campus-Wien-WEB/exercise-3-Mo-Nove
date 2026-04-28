@@ -40,6 +40,9 @@ footer { grid-area: f; }
             "h h"
             "n m"
             "f f";
+        nav {
+          max-height: 100%;
+        }
     }
 }
 
@@ -47,7 +50,9 @@ footer { grid-area: f; }
 nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  max-height: 30vh;
+  overflow-y: auto;
+  padding: 16px;
 }
 
 nav button {
@@ -71,9 +76,10 @@ header {
 nav ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     width: 100%;
     gap: 8px;
+    margin: 0;
 }
 
 /* Task 3.3: main = Flexbox container, wrapped */
